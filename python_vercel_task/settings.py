@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-from decouple import config
+from decouple import config # type: ignore
 from os import path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -81,8 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
-        'USER': 'postgres.pcsbkkujzcmeteovtjfv',
-        'PASSWORD': 'Delia2318@123',
+        'USER': 'postgres.upekxoftllgcwymhepws',
+        'PASSWORD': '-9F4b-Rq_2*LTWC',
         'HOST': 'aws-0-us-west-1.pooler.supabase.com',
         'PORT': '6543',
     }
